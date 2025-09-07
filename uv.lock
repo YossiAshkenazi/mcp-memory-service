@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10"
 resolution-markers = [
     "python_full_version < '3.12'",
@@ -937,14 +937,13 @@ wheels = [
 
 [[package]]
 name = "mcp-memory-service"
-version = "6.10.1"
+version = "6.13.1"
 source = { editable = "." }
 dependencies = [
     { name = "aiofiles" },
     { name = "aiohttp" },
     { name = "build" },
     { name = "chardet" },
-    { name = "chromadb" },
     { name = "click" },
     { name = "fastapi" },
     { name = "httpx" },
@@ -979,7 +978,6 @@ requires-dist = [
     { name = "aiohttp", specifier = ">=3.8.0" },
     { name = "build", specifier = ">=0.10.0" },
     { name = "chardet", specifier = ">=5.0.0" },
-    { name = "chromadb", specifier = "==0.5.23" },
     { name = "chromadb", marker = "extra == 'chromadb'", specifier = "==0.5.23" },
     { name = "click", specifier = ">=8.0.0" },
     { name = "fastapi", specifier = ">=0.115.0" },
@@ -993,7 +991,7 @@ requires-dist = [
     { name = "sqlite-vec", specifier = ">=0.1.0" },
     { name = "sqlite-vec", marker = "extra == 'sqlite'", specifier = ">=0.1.0" },
     { name = "sse-starlette", specifier = ">=2.1.0" },
-    { name = "tokenizers", specifier = "==0.20.3" },
+    { name = "tokenizers", specifier = ">=0.20.3" },
     { name = "torch", specifier = ">=2.0.0" },
     { name = "torch", marker = "extra == 'ml'", specifier = ">=2.0.0" },
     { name = "uvicorn", specifier = ">=0.30.0" },
