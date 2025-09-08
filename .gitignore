@@ -140,3 +140,4 @@ yarn-error.log*
 package-lock.json
 .npm
 uv.lock
+*.lock
