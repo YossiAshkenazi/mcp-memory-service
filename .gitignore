@@ -141,3 +141,4 @@ package-lock.json
 .npm
 uv.lock
 *.lock
+*.lock
